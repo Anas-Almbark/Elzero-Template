@@ -1,0 +1,118 @@
+/* Media Responsive For Mobile Screen  */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Media Responsive For Medium Screen  */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Media Responsive For Large Screen */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media (max-width: 768px) {
+  .heading h2 {
+    font-size: 25px;
+  }
+}
+/* For Header Section  */
+@media (max-width: 768px) {
+  header .container nav {
+    flex-direction: column;
+  }
+  header .container nav ul li a {
+    font-size: 14px;
+    padding: 10px 7px;
+  }
+}
+/* For Landing Section  */
+@media (max-width: 992px) {
+  .landing .container {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing .container .text-box h2 {
+    margin: -40px 0 20px 0;
+  }
+  .landing .container .text-box p {
+    max-width: 100%;
+  }
+  .landing .container img,
+  .landing .mega-menu img {
+    display: none;
+  }
+  .landing .mega-menu {
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  .landing .mega-menu {
+    width: 100%;
+  }
+  .landing .mega-menu .box-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .landing .mega-menu .box-links .links {
+    margin: 0;
+  }
+  .landing .mega-menu .box-links .links li {
+    max-width: 100%;
+  }
+  .landing .mega-menu .box-links .links li:last-of-type {
+    border-bottom: 1.5px solid #e9e6e6;
+  }
+}
+/* For Gallery Section  */
+@media (max-width: 1150px) {
+  .gallery .box-gallery-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+}
+@media (max-width: 992px) {
+  .gallery .box-gallery-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+}
+@media (max-width: 731px) {
+  .gallery .box-gallery-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  }
+}
+/* For Our Skills Section  */
+@media (max-width: 992px) {
+  .our-skills .container img {
+    display: none;
+  }
+}
+/* For Work Steps Section  */
+@media (max-width: 992px) {
+  .work-steps .container {
+    flex-direction: column;
+  }
+  .work-steps .container img {
+    margin: 0 0 50px 0;
+  }
+}
+@media (max-width: 768px) {
+  .work-steps .container .content .box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .work-steps .container .content .box img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
